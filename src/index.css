@@ -2438,6 +2438,9 @@ img {
     margin: 0;
     flex-shrink: 0;
   }
+  .step-content {
+    flex: 1;
+  }
   .process-step p {
     padding: 0;
   }

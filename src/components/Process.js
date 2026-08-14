@@ -25,8 +25,10 @@ export default function Process() {
         stepsData.map((step, idx) => 
           e('div', { key: idx, className: 'process-step' },
             e('div', { className: 'step-number' }, step.num),
-            e('h3', null, step.title),
-            e('p', null, step.desc)
+            e('div', { className: 'step-content' },
+              e('h3', null, step.title),
+              e('p', null, step.desc)
+            )
           )
         )
       )
