@@ -173,7 +173,7 @@ export default function Contact() {
               {
                 icon: 'fa-envelope',
                 title: 'Email',
-                content: e('a', { href: 'mailto:vijaysolarpowersolutions@gmail.com', className: 'hover-link' }, 'vijaysolarpowersolutions@gmail.com')
+                content: e('a', { href: 'mailto:solarpowervijay@gmail.com', className: 'hover-link' }, 'solarpowervijay@gmail.com')
               },
               {
                 icon: 'fa-clock',

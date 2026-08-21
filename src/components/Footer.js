@@ -77,15 +77,19 @@ export default function Footer() {
         e('ul', { className: 'footer-contact-details' },
           e('li', null, 
             e('i', { className: 'fa-solid fa-phone' }),
-            ' +91 12345 67890'
+            e('span', null, 
+              e('a', { href: 'tel:9444833272', className: 'footer-contact-link' }, ' +91 94448 33272'),
+              ' / ',
+              e('a', { href: 'tel:9791720272', className: 'footer-contact-link' }, '+91 97917 20272')
+            )
           ),
           e('li', null, 
             e('i', { className: 'fa-solid fa-envelope' }),
-            ' info@vijaysolarpower.com'
+            e('a', { href: 'mailto:solarpowervijay@gmail.com', className: 'footer-contact-link' }, ' solarpowervijay@gmail.com')
           ),
           e('li', null, 
             e('i', { className: 'fa-solid fa-location-dot' }),
-            ' Mumbai, Maharashtra, India'
+            ' Coimbatore, Tamil Nadu'
           )
         )
       )
